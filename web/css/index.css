@@ -1,0 +1,119 @@
+body {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    background-color: #181918;
+    /*background-image: url('../images/background.png');*/
+}
+
+#main_div {
+    width: 30%;
+    height: 80%;
+    margin: 30% auto;
+    border: #d0e2dc solid 2px;
+    padding: 1%;
+}
+
+img.light_on {
+    margin-left: 5%;
+    width: 80px;
+    height: 80px;
+}
+
+#change {
+    margin-left: 40%;
+}
+
+button {
+    padding: 0.5%;
+    margin: 0 0 0 2%;
+    border-radius: 7px;
+    background: #46e24b;
+    color: white;
+}
+
+button:active {
+    background: #3ec842;
+}
+
+/*ip列表*/
+
+#left {
+
+    position: absolute;
+    width: 22%;
+    height: 100%;
+    top: 0;
+    left: -22%;
+    padding: 0;
+    display: flex;
+}
+
+#getclient {
+    padding: 1%;
+    background-color: gray;
+    border-radius: 2px;
+}
+
+#getclient:active {
+    background-color: #888d8f;
+}
+
+#title_div {
+    margin: 0;
+    background-color: #6d7173;
+    padding: 1em;
+    text-align: center;
+    font-weight: bold;
+    font-family: KaiTi, serif;
+    color: white;
+
+}
+
+#left p {
+    padding: 1em;
+    margin: 0;
+    border-bottom: #6d7173 solid 1px;
+}
+
+#ipshow {
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    margin: 15% 0 0 0;
+    border: #6d7173 solid 1px;
+    background-color: #d0e2dc;
+    text-align: center;
+}
+
+#back {
+    margin-top: 2%;
+    height: 2%;
+    padding: 0;
+    font-family: KaiTi, serif;
+    background: #181918;
+    color: white;
+    display: block;
+}
+
+#back:active {
+    background-color: #888d8f;
+}
+
+#right {
+    width: 30%;
+    height: 100%;
+
+}
+
+#mask {
+    width: 100%;
+    height: 100%;
+    top: 0;
+    filter: alpha(opacity=60);
+    z-index: 1002;
+    left: 0;
+    opacity: 0.5;
+    -moz-opacity: 0.5;
+}
